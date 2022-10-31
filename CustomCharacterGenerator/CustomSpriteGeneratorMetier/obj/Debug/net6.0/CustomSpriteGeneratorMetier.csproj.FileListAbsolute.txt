@@ -1,0 +1,36 @@
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\CustomSpriteGeneratorMetier\bin\Debug\net6.0\CustomSpriteGeneratorMetier.deps.json
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\CustomSpriteGeneratorMetier\bin\Debug\net6.0\CustomSpriteGeneratorMetier.dll
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\CustomSpriteGeneratorMetier\bin\Debug\net6.0\CustomSpriteGeneratorMetier.pdb
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\CustomSpriteGeneratorMetier\obj\Debug\net6.0\CustomSpriteGeneratorMetier.csproj.AssemblyReference.cache
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\CustomSpriteGeneratorMetier\obj\Debug\net6.0\CustomSpriteGeneratorMetier.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\CustomSpriteGeneratorMetier\obj\Debug\net6.0\CustomSpriteGeneratorMetier.AssemblyInfoInputs.cache
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\CustomSpriteGeneratorMetier\obj\Debug\net6.0\CustomSpriteGeneratorMetier.AssemblyInfo.cs
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\CustomSpriteGeneratorMetier\obj\Debug\net6.0\CustomSpriteGeneratorMetier.csproj.CoreCompileInputs.cache
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\CustomSpriteGeneratorMetier\obj\Debug\net6.0\CustomSpriteGeneratorMetier.dll
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\CustomSpriteGeneratorMetier\obj\Debug\net6.0\refint\CustomSpriteGeneratorMetier.dll
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\CustomSpriteGeneratorMetier\obj\Debug\net6.0\CustomSpriteGeneratorMetier.pdb
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\CustomSpriteGeneratorMetier\obj\Debug\net6.0\ref\CustomSpriteGeneratorMetier.dll
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\CustomSpriteGeneratorMetier\obj\Debug\net6.0\CustomSpriteGeneratorMetier.csproj.AssemblyReference.cache
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\CustomSpriteGeneratorMetier\obj\Debug\net6.0\CustomSpriteGeneratorMetier.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\CustomSpriteGeneratorMetier\obj\Debug\net6.0\CustomSpriteGeneratorMetier.AssemblyInfoInputs.cache
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\CustomSpriteGeneratorMetier\obj\Debug\net6.0\CustomSpriteGeneratorMetier.AssemblyInfo.cs
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\CustomSpriteGeneratorMetier\obj\Debug\net6.0\CustomSpriteGeneratorMetier.csproj.CoreCompileInputs.cache
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\CustomSpriteGeneratorMetier\obj\Debug\net6.0\CustomSpriteGeneratorMetier.dll
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\CustomSpriteGeneratorMetier\obj\Debug\net6.0\refint\CustomSpriteGeneratorMetier.dll
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\CustomSpriteGeneratorMetier\obj\Debug\net6.0\CustomSpriteGeneratorMetier.pdb
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\CustomSpriteGeneratorMetier\bin\Debug\net6.0\CustomSpriteGeneratorMetier.deps.json
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\CustomSpriteGeneratorMetier\bin\Debug\net6.0\CustomSpriteGeneratorMetier.dll
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\CustomSpriteGeneratorMetier\bin\Debug\net6.0\CustomSpriteGeneratorMetier.pdb
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\CustomSpriteGeneratorMetier\obj\Debug\net6.0\ref\CustomSpriteGeneratorMetier.dll
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\CustomSpriteGeneratorMetier\bin\Debug\net6.0\CustomSpriteGeneratorMetier.deps.json
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\CustomSpriteGeneratorMetier\bin\Debug\net6.0\CustomSpriteGeneratorMetier.dll
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\CustomSpriteGeneratorMetier\bin\Debug\net6.0\CustomSpriteGeneratorMetier.pdb
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\CustomSpriteGeneratorMetier\obj\Debug\net6.0\CustomSpriteGeneratorMetier.csproj.AssemblyReference.cache
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\CustomSpriteGeneratorMetier\obj\Debug\net6.0\CustomSpriteGeneratorMetier.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\CustomSpriteGeneratorMetier\obj\Debug\net6.0\CustomSpriteGeneratorMetier.AssemblyInfoInputs.cache
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\CustomSpriteGeneratorMetier\obj\Debug\net6.0\CustomSpriteGeneratorMetier.AssemblyInfo.cs
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\CustomSpriteGeneratorMetier\obj\Debug\net6.0\CustomSpriteGeneratorMetier.csproj.CoreCompileInputs.cache
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\CustomSpriteGeneratorMetier\obj\Debug\net6.0\CustomSpriteGeneratorMetier.dll
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\CustomSpriteGeneratorMetier\obj\Debug\net6.0\refint\CustomSpriteGeneratorMetier.dll
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\CustomSpriteGeneratorMetier\obj\Debug\net6.0\CustomSpriteGeneratorMetier.pdb
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\CustomSpriteGeneratorMetier\obj\Debug\net6.0\ref\CustomSpriteGeneratorMetier.dll

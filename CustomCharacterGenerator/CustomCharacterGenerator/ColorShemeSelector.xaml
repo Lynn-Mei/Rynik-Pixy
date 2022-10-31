@@ -1,0 +1,38 @@
+﻿<Window x:Class="CustomCharacterGenerator.ColorShemeSelector"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CustomCharacterGenerator"
+        mc:Ignorable="d"
+        Title="ColorShemeSelector" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="5*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="5*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Button Name="Layer1" Content="First Layer" Grid.Row="0" Grid.Column="1" Margin="50,10,50,10" Click="ClickLayer1" />
+        <Button Name="Layer2" Content="Second Layer" Grid.Row="1" Grid.Column="1" Margin="50,10,50,10" Click="ClickLayer2"/>
+        <Button Name="Layer3" Content="Third Layer" Grid.Row="2" Grid.Column="1" Margin="50,10,50,10" Click="ClickLayer3"/>
+        <Button Name="Layer4" Content="Fourth Layer" Grid.Row="3" Grid.Column="1" Margin="50,10,50,10" Click="ClickLayer4"/>
+        <Button Name="Layer5" Content="Fifth Layer" Grid.Row="4" Grid.Column="1" Margin="50,10,50,10" Click="ClickLayer5"/>
+
+        <Button Name="Layer6" Content="Sixth Layer" Grid.Row="0" Grid.Column="3" Margin="50,10,50,10" Click="ClickLayer6"/>
+        <Button Name="Layer7" Content="Seventh Layer" Grid.Row="1" Grid.Column="3" Margin="50,10,50,10" Click="ClickLayer7"/>
+        <Button Name="Layer8" Content="Eighth Layer" Grid.Row="2" Grid.Column="3" Margin="50,10,50,10" Click="ClickLayer8"/>
+        <Button Name="Layer9" Content="Ninth Layer" Grid.Row="3" Grid.Column="3" Margin="50,10,50,10" Click="ClickLayer9"/>
+        <Button Name="Layer10" Content="Tenth Layer" Grid.Row="4" Grid.Column="3" Margin="50,10,50,10" Click="ClickLayer10"/>
+
+        <Button Name="Validate" Content="OK" Grid.Row="5" Grid.Column="3" Margin="50,10,50,10" Click="OK"/>
+    </Grid>
+</Window>

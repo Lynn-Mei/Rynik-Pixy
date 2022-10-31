@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "bOMaV5oh//QHh6b/llX9AJXCqtFwUC4EKBSpNSAhXtldcscCfHToSo51eupmjBrWRItYGo2TePIUYj30R+9ORA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shuna\\OneDrive\\Bureau\\Project Silverfox\\Silverfox\\Game\\CustomCharacterGenerator\\CustomCharacterGenerator\\CustomCharacterGenerator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shuna\\.nuget\\packages\\aspose.drawing\\22.9.0\\aspose.drawing.22.9.0.nupkg.sha512",
+    "C:\\Users\\shuna\\.nuget\\packages\\extended.wpf.toolkit\\4.4.0\\extended.wpf.toolkit.4.4.0.nupkg.sha512",
+    "C:\\Users\\shuna\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\shuna\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\shuna\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\shuna\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\shuna\\.nuget\\packages\\system.drawing.primitives\\4.3.0\\system.drawing.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\shuna\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\shuna\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

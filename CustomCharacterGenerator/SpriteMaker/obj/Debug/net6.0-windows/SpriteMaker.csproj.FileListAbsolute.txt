@@ -1,0 +1,86 @@
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\SpriteMaker\bin\Debug\net6.0-windows\SpriteMaker.exe
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\SpriteMaker\bin\Debug\net6.0-windows\SpriteMaker.deps.json
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\SpriteMaker\bin\Debug\net6.0-windows\SpriteMaker.runtimeconfig.json
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\SpriteMaker\bin\Debug\net6.0-windows\SpriteMaker.dll
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\SpriteMaker\bin\Debug\net6.0-windows\SpriteMaker.pdb
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\SpriteMaker\bin\Debug\net6.0-windows\CustomSpriteGeneratorMetier.dll
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\SpriteMaker\bin\Debug\net6.0-windows\CustomSpriteGeneratorMetier.pdb
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker.csproj.AssemblyReference.cache
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\ColorShemeSelector.g.cs
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\LayerColorSelector.g.cs
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker_MarkupCompile.cache
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker_MarkupCompile.lref
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\ColorShemeSelector.baml
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\LayerColorSelector.baml
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker.g.resources
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker.AssemblyInfoInputs.cache
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker.AssemblyInfo.cs
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker.csproj.CoreCompileInputs.cache
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker.csproj.CopyComplete
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker.dll
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\refint\SpriteMaker.dll
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker.pdb
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker.genruntimeconfig.cache
+C:\Users\shuna\OneDrive\Bureau\Project Silverfox\Silverfox\Game\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\ref\SpriteMaker.dll
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\bin\Debug\net6.0-windows\SpriteMaker.exe
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\bin\Debug\net6.0-windows\SpriteMaker.deps.json
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\bin\Debug\net6.0-windows\SpriteMaker.runtimeconfig.json
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\bin\Debug\net6.0-windows\SpriteMaker.dll
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\bin\Debug\net6.0-windows\SpriteMaker.pdb
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\bin\Debug\net6.0-windows\CustomSpriteGeneratorMetier.dll
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\bin\Debug\net6.0-windows\CustomSpriteGeneratorMetier.pdb
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker.csproj.AssemblyReference.cache
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\ColorShemeSelector.g.cs
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\LayerColorSelector.g.cs
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker_MarkupCompile.cache
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker_MarkupCompile.lref
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\ColorShemeSelector.baml
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\LayerColorSelector.baml
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker.g.resources
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker.AssemblyInfoInputs.cache
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker.AssemblyInfo.cs
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker.csproj.CoreCompileInputs.cache
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker.csproj.CopyComplete
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker.dll
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\refint\SpriteMaker.dll
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker.pdb
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker.genruntimeconfig.cache
+C:\Users\shuna\OneDrive\Bureau\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\ref\SpriteMaker.dll
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\bin\Debug\net6.0-windows\SpriteMaker.exe
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\bin\Debug\net6.0-windows\SpriteMaker.deps.json
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\bin\Debug\net6.0-windows\SpriteMaker.runtimeconfig.json
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\bin\Debug\net6.0-windows\SpriteMaker.dll
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\bin\Debug\net6.0-windows\SpriteMaker.pdb
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\bin\Debug\net6.0-windows\CustomSpriteGeneratorMetier.dll
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\bin\Debug\net6.0-windows\CustomSpriteGeneratorMetier.pdb
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker.csproj.AssemblyReference.cache
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\ColorShemeSelector.g.cs
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\LayerColorSelector.g.cs
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker_MarkupCompile.cache
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker_MarkupCompile.lref
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\ColorShemeSelector.baml
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\LayerColorSelector.baml
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker.g.resources
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker.AssemblyInfoInputs.cache
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker.AssemblyInfo.cs
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker.csproj.CoreCompileInputs.cache
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker.csproj.CopyComplete
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker.dll
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\refint\SpriteMaker.dll
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker.pdb
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\SpriteMaker.genruntimeconfig.cache
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\ref\SpriteMaker.dll
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\NewSpriteWindow.g.cs
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\NewSpriteWindow.baml

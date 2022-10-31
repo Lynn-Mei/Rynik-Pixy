@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "tPiR3z1Ac/KXMA1jkSgTU41ZVgo9DISw30XmtWE996Et3zI0qiwH3hwxgFWvCxTFqPqwIkVhgYx7Cr+ktOJnmA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shuna\\OneDrive\\Documents\\Rynik-Pixy\\Rynik-Pixy\\CustomCharacterGenerator\\CustomSpriteGeneratorMetier\\CustomSpriteGeneratorMetier.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shuna\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\shuna\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\shuna\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\shuna\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\shuna\\.nuget\\packages\\system.drawing.primitives\\4.3.0\\system.drawing.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\shuna\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\shuna\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

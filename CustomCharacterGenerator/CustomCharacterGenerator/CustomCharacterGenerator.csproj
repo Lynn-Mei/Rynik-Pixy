@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspose.Drawing" Version="22.9.0" />
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CustomSpriteGeneratorMetier\CustomSpriteGeneratorMetier.csproj" />
+  </ItemGroup>
+
+</Project>
