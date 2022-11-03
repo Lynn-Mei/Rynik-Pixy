@@ -35,10 +35,58 @@ namespace SpriteMaker
             InitializeComponent();
             scheme = new ColorScheme();
             sprite = new Sprite();
+            this.can.Width = sprite.Image.Width*100;
+            this.can.Height = sprite.Image.Height*100;
+
+            DrawGrid(32,32);
+        }
+
+        private void DrawGrid(int height, int width) 
+        {
+            this.can.Children.Clear();
+            for (int x = 0; x <= width; x++) {
+                Line line = new Line();
+                line.Stroke = System.Windows.Media.Brushes.Black;
+
+                line.X1 = 0+(this.can.Width / width) *x;
+                line.Y1 = 0+(this.can.Width / width) *0;
+
+                line.X2 = (0+(this.can.Width / width) *x);
+                line.Y2 = (0+(this.can.Width / width) *0)+ this.can.Width;
+
+                line.StrokeThickness = 1;
+                this.can.Children.Add(line);
+            }
+            for (int y = 0; y <= height; y++)
+            {
+                Line line = new Line();
+                line.Stroke = System.Windows.Media.Brushes.Black;
+
+                line.X1 = 0 + (this.can.Height / height) * 0;
+                line.Y1 = 0 + (this.can.Height / height) * y;
+
+                line.X2 = (0 + (this.can.Height / height) * 0)+ this.can.Height;
+                line.Y2 = (0 + (this.can.Height / height) * y);
+
+                line.StrokeThickness = 1;
+                this.can.Children.Add(line);
+            }
+            UpdateMargin();
+        }
+
+        private void UpdateMargin() 
+        {
+            double horizontalMargin = (this.panel.Width - this.can.Width) / 2;
+            double verticalMargin = (this.panel.Height - this.can.Height) / 2;
+
+
+            this.can.Margin = new Thickness(-220,verticalMargin/2, 0, 0);
         }
 
         public void UpdateSpriteView() {
             //convert sprite image to bitmapimage and set source as the stuff
+            this.can.Width = sprite.Image.Width;
+            this.can.Height = sprite.Image.Height;
 
             BitmapSource bitmap = getSource(this.sprite.Image);
             Image myImage = new Image();
@@ -146,7 +194,6 @@ namespace SpriteMaker
             }
             this.sprite = new Sprite(100, 100);
             this.UpdateSpriteView();
-
         }
 
         private void AddLayer(object sender, RoutedEventArgs e)
@@ -193,6 +240,25 @@ namespace SpriteMaker
             double ypos = (this.sprite.Image.Height * e.MouseDevice.GetPosition(can).Y) / result.Height;
             this.sprite.DrawPixel(Convert.ToInt32(xpos), Convert.ToInt32(ypos), System.Drawing.Color.Black);
             this.UpdateSpriteView();
+        }
+
+        private void scroll(object sender, MouseWheelEventArgs e)
+        {
+            if (e.Delta > 0)
+            {
+                if (this.can.Height + 50 < 3924 && this.can.Width + 50 < 1608) {
+                    this.can.Height += 50;
+                    this.can.Width += 50;
+                }
+            }
+            else {
+                if (this.can.Height-50>100 && this.can.Width - 50>100) {
+                    this.can.Height -= 50;
+                    this.can.Width -= 50;
+                }
+            }
+            
+            this.DrawGrid(32,32);
         }
     }
 }

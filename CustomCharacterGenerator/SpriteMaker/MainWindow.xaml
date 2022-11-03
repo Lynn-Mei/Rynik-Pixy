@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SpriteMaker"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Background="#303030">
+        Title="MainWindow" Height="1080" Width="1920" Background="#303030">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" />
@@ -14,11 +14,11 @@
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="1*" />
-            <RowDefinition Height="12*" />
+            <RowDefinition Height="20*" />
             <RowDefinition Height="1*" />
         </Grid.RowDefinitions>
 
-        <Menu DockPanel.Dock="Top" Margin="0,0,0,0" Grid.ColumnSpan="3" Grid.Row="0" Background="#212121" Foreground="White">
+        <Menu DockPanel.Dock="Top" Margin="0,0,0,0" Grid.ColumnSpan="3"  Background="#212121" Foreground="White">
             <MenuItem Header="_File" Background="#212121" >
                 <MenuItem Header="_Open Image" Click="OpenFile" Background="#212121" />
                 <MenuItem Header="_Open Scheme" Click="OpenScheme" />
@@ -38,7 +38,12 @@
         <Button Content="Add Layer From File" Grid.Row="1" Grid.Column="2" VerticalAlignment="Top" Margin="0,110,0,0" Click="AddOpenLayer" />
         <Button Content="Add Frame" Grid.Row="1" Grid.Column="2" VerticalAlignment="Top" Margin="0,140,0,0" />
 
-        <Canvas Name="can" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" Background="LightGray" Focusable="True" MouseLeftButtonDown="MouseDownCanvas" Width="480" Height="400"/>
+        <StackPanel Name="panel" Grid.Column="1" Grid.Row="1" Background="LightGray" Height="981" Width="1152">
+            <Canvas x:Name="can" Focusable="True" Height="300" Width="300" Background="Gray" MouseWheel="scroll" />
+        </StackPanel>
+
+
+
         <Image Name="result" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" Focusable="True" MouseLeftButtonDown="MouseDownCanvas" Width="480" Height="400"/>
 
     </Grid>
