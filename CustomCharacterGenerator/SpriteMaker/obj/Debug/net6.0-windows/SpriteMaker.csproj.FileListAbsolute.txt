@@ -84,3 +84,4 @@ C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator
 C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\ref\SpriteMaker.dll
 C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\NewSpriteWindow.g.cs
 C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\obj\Debug\net6.0-windows\NewSpriteWindow.baml
+C:\Users\shuna\OneDrive\Documents\Rynik-Pixy\Rynik-Pixy\CustomCharacterGenerator\SpriteMaker\bin\Debug\net6.0-windows\DotNetProjects.Wpf.Extended.Toolkit.dll

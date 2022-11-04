@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "w2gVjaxXrVZ7nhE9HPmWEVo6lL8p5SAC9j4guKxC8htUizAB9pw4AjbKeJUXjQSSVQ15vbHKz5VkQfxxPSigyQ==",
+  "dgSpecHash": "Kd/FUYSuq2mlDD//RFANt4aef62GH7H3NyEsX5PacRSbl4QC9h2A103iCd+tWWbN9XTW15V7mMgHaBzEtFfTQg==",
   "success": true,
   "projectFilePath": "C:\\Users\\shuna\\OneDrive\\Documents\\Rynik-Pixy\\Rynik-Pixy\\CustomCharacterGenerator\\SpriteMaker\\SpriteMaker.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\shuna\\.nuget\\packages\\dotnetprojects.extended.wpf.toolkit\\5.0.103\\dotnetprojects.extended.wpf.toolkit.5.0.103.nupkg.sha512",
     "C:\\Users\\shuna\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\shuna\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\shuna\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",

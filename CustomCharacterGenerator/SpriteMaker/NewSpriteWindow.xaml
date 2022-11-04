@@ -11,10 +11,16 @@
             <ColumnDefinition Width="1*" />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="4*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
             <RowDefinition Height="1*" />
             <RowDefinition Height="1*" />
         </Grid.RowDefinitions>
-        <Button Name="OKBtn" Content="Valider"  Grid.Row="2" Click="OK"/>
+        <Label Content="Width:" Grid.Row="0"/>
+        <TextBox Name="NumberTextBoxWidth" Grid.Row="1" Margin="10,10,10,10" Text="32" PreviewTextInput="NumberValidationTextBox"/>
+        <Label Content="Height:" Grid.Row="2"/>
+        <TextBox Name="NumberTextBoxHeight" Grid.Row="3" Margin="10,10,10,10" Text="32" PreviewTextInput="NumberValidationTextBox"/>
+        <Button Name="OKBtn" Content="Valider"  Grid.Row="4" Click="OK"/>
     </Grid>
 </Window>

@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="DotNetProjects.Extended.Wpf.Toolkit" Version="5.0.103" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\CustomSpriteGeneratorMetier\CustomSpriteGeneratorMetier.csproj" />
   </ItemGroup>
 

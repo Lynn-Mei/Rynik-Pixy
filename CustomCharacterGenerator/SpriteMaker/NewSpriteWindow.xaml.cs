@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -11,6 +12,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Text.RegularExpressions;
+using CustomSpriteGeneratorMetier;
 
 namespace SpriteMaker
 {
@@ -19,14 +22,23 @@ namespace SpriteMaker
     /// </summary>
     public partial class NewSpriteWindow : Window
     {
-        public NewSpriteWindow()
+        private MainWindow mainWindow;
+        public NewSpriteWindow(MainWindow w)
         {
             InitializeComponent();
+            mainWindow = w;
         }
 
         private void OK(object sender, RoutedEventArgs e)
         {
+            mainWindow.Sprite = new Sprite(Convert.ToInt32(NumberTextBoxHeight.Text), Convert.ToInt32(NumberTextBoxWidth.Text));
             this.Close();
+        }
+
+        private void NumberValidationTextBox(object sender, TextCompositionEventArgs e)
+        {
+            Regex regex = new Regex("[^0-9]+");
+            e.Handled = regex.IsMatch(e.Text);
         }
     }
 }

@@ -19,6 +19,10 @@ using System.Windows.Shapes;
 using System.Windows.Interop;
 using Image = System.Windows.Controls.Image;
 using Color = System.Windows.Media.Color;
+using Point = System.Windows.Point;
+using Rectangle = System.Windows.Shapes.Rectangle;
+using System.Windows.Media.Media3D;
+using Brushes = System.Windows.Media.Brushes;
 
 namespace SpriteMaker
 {
@@ -30,19 +34,29 @@ namespace SpriteMaker
         private string link;
         private ColorScheme scheme;
         private ISprite sprite;
+        
+        private Tools selectedTool = SpriteMaker.Tools.PENCIL;
+        private SolidColorBrush pickedColor = System.Windows.Media.Brushes.Black;
+
+        private List<Pixel> pixels = new List<Pixel>();
+
+        public ISprite Sprite { get { return this.sprite; } set { this.sprite = value; } }
         public MainWindow()
         {
             InitializeComponent();
             scheme = new ColorScheme();
-            sprite = new Sprite();
-            this.can.Width = sprite.Image.Width*100;
-            this.can.Height = sprite.Image.Height*100;
+            sprite = new Sprite(64,64);
 
-            DrawGrid(32,32);
+            this.can.Width = sprite.Image.Width*10;
+            this.can.Height = sprite.Image.Height*10;
+
+            DrawGrid();
         }
 
-        private void DrawGrid(int height, int width) 
+        private void DrawGrid() 
         {
+            int height = this.sprite.Image.Height;
+            int width = this.sprite.Image.Width;
             this.can.Children.Clear();
             for (int x = 0; x <= width; x++) {
                 Line line = new Line();
@@ -52,7 +66,7 @@ namespace SpriteMaker
                 line.Y1 = 0+(this.can.Width / width) *0;
 
                 line.X2 = (0+(this.can.Width / width) *x);
-                line.Y2 = (0+(this.can.Width / width) *0)+ this.can.Width;
+                line.Y2 = (0+(this.can.Width / width) *0)+ this.can.Height;
 
                 line.StrokeThickness = 1;
                 this.can.Children.Add(line);
@@ -65,13 +79,33 @@ namespace SpriteMaker
                 line.X1 = 0 + (this.can.Height / height) * 0;
                 line.Y1 = 0 + (this.can.Height / height) * y;
 
-                line.X2 = (0 + (this.can.Height / height) * 0)+ this.can.Height;
+                line.X2 = (0 + (this.can.Height / height) * 0)+ this.can.Width;
                 line.Y2 = (0 + (this.can.Height / height) * y);
 
                 line.StrokeThickness = 1;
                 this.can.Children.Add(line);
             }
+
             UpdateMargin();
+        }
+
+        private void DrawPixels() 
+        {
+            int height = this.sprite.Image.Height;
+            int width = this.sprite.Image.Width;
+            DrawGrid();
+
+            foreach (Pixel pixel in pixels) 
+            {
+                Rectangle rec = new Rectangle();
+                rec.Width = (this.can.Width / width);
+                rec.Height = (this.can.Height / height);
+                rec.Fill = pixel.Color;
+                this.can.Children.Add(rec);
+
+                Canvas.SetLeft(rec, (0 + (this.can.Width / width) * pixel.X));
+                Canvas.SetTop(rec, (0 + (this.can.Height / height) * pixel.Y));
+            }
         }
 
         private void UpdateMargin() 
@@ -79,30 +113,24 @@ namespace SpriteMaker
             double horizontalMargin = (this.panel.Width - this.can.Width) / 2;
             double verticalMargin = (this.panel.Height - this.can.Height) / 2;
 
-
             this.can.Margin = new Thickness(-220,verticalMargin/2, 0, 0);
         }
-
-        public void UpdateSpriteView() {
-            //convert sprite image to bitmapimage and set source as the stuff
-            this.can.Width = sprite.Image.Width;
-            this.can.Height = sprite.Image.Height;
-
-            BitmapSource bitmap = getSource(this.sprite.Image);
-            Image myImage = new Image();
-            myImage.Width = 200;
-            // Set image source.
-            myImage.Source = bitmap;
-            this.result.Source = myImage.Source;
-        }
-
-
+        /// <summary>
+        /// Calls the sprite's apply scheme method
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ApplyScheme(object sender, RoutedEventArgs e)
         {
             sprite.applyColorScheme(link,scheme);
-            this.UpdateSpriteView();
+            this.DrawPixels();
         }
 
+        /// <summary>
+        /// Opens an Image
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Open(object sender, RoutedEventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
@@ -110,10 +138,14 @@ namespace SpriteMaker
                 link = openFileDialog.FileName;
                 this.sprite.setImage(link);
             }
-            this.UpdateSpriteView();
+            this.DrawPixels();
         }
-
-        private void OpenFile(object sender, RoutedEventArgs e)
+        /// <summary>
+        /// Opens a project
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void OpenProject(object sender, RoutedEventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
             if (openFileDialog.ShowDialog() == true)
@@ -121,8 +153,13 @@ namespace SpriteMaker
             if (link != "")
                 this.sprite = new Sprite(link);
             
-            this.UpdateSpriteView();
+            this.DrawPixels();
         }
+        /// <summary>
+        /// Saves the image to a png file
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void SaveImage(object sender, RoutedEventArgs e)
         {
             SaveFileDialog saveFileDialog = new SaveFileDialog();
@@ -131,69 +168,25 @@ namespace SpriteMaker
                 string path = saveFileDialog.FileName;
                 this.sprite.Save(path);
             }
-
-//                File.WriteAllText(saveFileDialog.FileName, Sprite.Instance.schemeToString());
         }
+        /// <summary>
+        /// Saves the project to a .pixy file
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void SaveScheme(object sender, RoutedEventArgs e)
         {
             SaveFileDialog saveFileDialog = new SaveFileDialog();
             if (saveFileDialog.ShowDialog() == true)
                 File.WriteAllText(saveFileDialog.FileName, scheme.ToString());
         }
-        private void OpenScheme(object sender, RoutedEventArgs e)
-        {
-            string scheme = "";
-            int layer = 0;
-            int value = 0;
-            string r = "";
-            string g = "";
-            string b = "";
-
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            if (openFileDialog.ShowDialog() == true)
-                scheme = File.ReadAllText(openFileDialog.FileName);
-
-            foreach (char c in scheme)
-            {
-                if (c == '\n')
-                {
-                    System.Drawing.Color layerColor = System.Drawing.Color.FromArgb(Convert.ToInt32(r), Convert.ToInt32(g), Convert.ToInt32(b));
-                    this.scheme.changeColor(layer, layerColor);
-                    
-                    layer++;
-                    r = "";
-                    g = "";
-                    b = "";
-                }
-                else if (c == ',' && value == 2)
-                {
-                    value = 0;
-                }
-                else if (c == ',')
-                {
-                    value++;
-                }
-                else if (c != '\r')
-                {
-                    switch (value)
-                    {
-                        case 0: r += c; break;
-                        case 1: g += c; break;
-                        case 2: b += c; break;
-                    }
-                }
-            }
-        }
-
-
         private void NewSprite(object sender, RoutedEventArgs e)
         {
-            NewSpriteWindow win = new NewSpriteWindow();
+            NewSpriteWindow win = new NewSpriteWindow(this);
             if (win.ShowDialog() == true)
             {
             }
-            this.sprite = new Sprite(100, 100);
-            this.UpdateSpriteView();
+            this.DrawPixels();
         }
 
         private void AddLayer(object sender, RoutedEventArgs e)
@@ -215,33 +208,63 @@ namespace SpriteMaker
         private void AddOpenLayer(object sender, RoutedEventArgs e)
         {
             //to code
-            this.UpdateSpriteView();
+            this.DrawPixels();
         }
-
-        //Malediction egyptienne du MAAAAAAAL
-
-        private BitmapSource getSource(Bitmap bitmap)
-        {
-            BitmapSource destination;
-
-            IntPtr hBitmap = bitmap.GetHbitmap();
-
-            BitmapSizeOptions sizeOptions = BitmapSizeOptions.FromEmptyOptions();
-
-            destination = System.Windows.Interop.Imaging.CreateBitmapSourceFromHBitmap(hBitmap, IntPtr.Zero, Int32Rect.Empty, sizeOptions);
-
-            return destination;
-        }
-
+        /// <summary>
+        /// Gestion du click de la souris sur le canvas
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void MouseDownCanvas(object sender, MouseButtonEventArgs e)
         {
-            //SolidColorBrush brush = new SolidColorBrush(Color.FromRgb(255,255,255));
-            double xpos =  (this.sprite.Image.Width * e.MouseDevice.GetPosition(can).X) / result.Width;
-            double ypos = (this.sprite.Image.Height * e.MouseDevice.GetPosition(can).Y) / result.Height;
-            this.sprite.DrawPixel(Convert.ToInt32(xpos), Convert.ToInt32(ypos), System.Drawing.Color.Black);
-            this.UpdateSpriteView();
-        }
+            int height = this.sprite.Image.Height;
+            int width = this.sprite.Image.Width;
+            Point p = e.GetPosition(can);
+            int posX = Convert.ToInt32(Math.Truncate(p.X / (this.can.Width / width)));
+            int posY = Convert.ToInt32(Math.Truncate(p.Y / (this.can.Height / height)));
 
+            if (this.selectedTool == SpriteMaker.Tools.PENCIL) 
+            {
+                if (!this.pixels.Contains(new Pixel(posX, posY, this.pickedColor))) {
+                    this.sprite.DrawPixel(posX, posY, System.Drawing.Color.Black);
+                    this.pixels.Add(new Pixel(posX, posY, this.pickedColor));
+                    this.DrawPixels();
+                }
+            }
+            if (this.selectedTool == SpriteMaker.Tools.ERASER)
+            {
+                this.can.Children.Clear();
+                this.DrawGrid();
+                this.sprite.DrawPixel(posX, posY, System.Drawing.Color.Transparent);
+
+                List<Pixel> temp = new List<Pixel>();
+                foreach (Pixel pixel in pixels) {
+                    if (!(pixel.X == posX && pixel.Y == posY)) {
+                        temp.Add(pixel);
+                    }
+                }
+
+                this.pixels=temp;
+                this.DrawPixels();
+            }
+            if (this.selectedTool == SpriteMaker.Tools.COLORPICKER) 
+            {
+                SolidColorBrush color = new SolidColorBrush(Color.FromArgb(0, 0, 0, 0));
+                foreach (Pixel pixel in pixels)
+                {
+                    if (pixel.X == posX && pixel.Y == posY)
+                    {
+                        color = pixel.Color;
+                    }
+                }
+                this.ColorSelect.SelectedColor = color.Color;
+            }
+        }
+        /// <summary>
+        /// Gestion du zoom sur le canvas
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void scroll(object sender, MouseWheelEventArgs e)
         {
             if (e.Delta > 0)
@@ -257,9 +280,35 @@ namespace SpriteMaker
                     this.can.Width -= 50;
                 }
             }
-            
-            this.DrawGrid(32,32);
+            this.DrawGrid();
+            this.DrawPixels();
+        }
+
+        private void setToPencil(object sender, RoutedEventArgs e)
+        {
+            this.selectedTool = SpriteMaker.Tools.PENCIL;
+        }
+
+        private void setToBucket(object sender, RoutedEventArgs e)
+        {
+            this.selectedTool = SpriteMaker.Tools.BUCKET; 
+        }
+        private void setToEraser(object sender, RoutedEventArgs e)
+        {
+            this.selectedTool = SpriteMaker.Tools.ERASER;
+        }
+        private void setToColorPicker(object sender, RoutedEventArgs e)
+        {
+            this.selectedTool = SpriteMaker.Tools.COLORPICKER;
+        }
+        private void setToMove(object sender, RoutedEventArgs e)
+        {
+            this.selectedTool = SpriteMaker.Tools.MOVE;
+        }
+
+        private void SelectedColorChanged(object sender, RoutedPropertyChangedEventArgs<Color?> e)
+        {
+            pickedColor = new SolidColorBrush(ColorSelect.SelectedColor.Value);
         }
     }
 }
-
