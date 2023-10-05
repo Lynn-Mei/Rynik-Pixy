@@ -16,7 +16,7 @@ namespace CustomSpriteGeneratorMetier
             this.scheme.Clear();
             //Color 1
             this.scheme.Add(new Color());
-            this.scheme.Add(Color.Orange);
+            /*this.scheme.Add(Color.Orange);
             this.scheme.Add(Color.Yellow);
             this.scheme.Add(Color.Green);
             this.scheme.Add(Color.LightBlue);
@@ -25,7 +25,7 @@ namespace CustomSpriteGeneratorMetier
             this.scheme.Add(Color.DarkBlue);
             this.scheme.Add(Color.Purple);
             this.scheme.Add(Color.Black);
-            this.scheme.Add(Color.White);
+            this.scheme.Add(Color.White);*/
         }
         public void changeColor(int layer, Color c)
         {

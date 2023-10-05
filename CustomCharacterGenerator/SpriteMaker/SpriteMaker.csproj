@@ -8,11 +8,27 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="images\bucket.png" />
+    <None Remove="images\eraser.png" />
+    <None Remove="images\pencil.png" />
+    <None Remove="images\picker.png" />
+    <None Remove="images\selectR.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="DotNetProjects.Extended.Wpf.Toolkit" Version="5.0.103" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\CustomSpriteGeneratorMetier\CustomSpriteGeneratorMetier.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\bucket.png" />
+    <Resource Include="images\eraser.png" />
+    <Resource Include="images\pencil.png" />
+    <Resource Include="images\picker.png" />
+    <Resource Include="images\selectR.png" />
   </ItemGroup>
 
 </Project>

@@ -40,7 +40,7 @@ namespace SpriteMaker
 
         private List<Pixel> pixels = new List<Pixel>();
 
-        public ISprite Sprite { get { return this.sprite; } set { this.sprite = value; } }
+        public ISprite Sprite { get { return this.sprite; } set { this.pixels.Clear(); this.sprite = value; } }
         public MainWindow()
         {
             InitializeComponent();
@@ -51,6 +51,15 @@ namespace SpriteMaker
             this.can.Height = sprite.Image.Height*10;
 
             DrawGrid();
+
+            RadioButton rb = new RadioButton();
+            rb.Margin = new Thickness(-200,0,0,0);
+            rb.GroupName = "Colorlevels";
+            rb.IsChecked = true;
+            rb.Height = 25;
+            rb.Width = 25;
+            this.ColorLevels.Children.Add(rb);
+
         }
 
         private void DrawGrid() 
@@ -309,6 +318,32 @@ namespace SpriteMaker
         private void SelectedColorChanged(object sender, RoutedPropertyChangedEventArgs<Color?> e)
         {
             pickedColor = new SolidColorBrush(ColorSelect.SelectedColor.Value);
+        }
+
+        private void AddColorLevel(object sender, RoutedEventArgs e)
+        {
+            RadioButton rb = new RadioButton();
+            int nb = this.ColorLevels.Children.Count;
+            rb.Height = 25;
+            rb.Width = 25;
+
+            //margin is temporary
+            if (nb % 3 == 0)
+            {
+                rb.Margin = new Thickness(-200, 0, 0, 0);
+            }
+            else if (nb % 3 == 1)
+            {
+                rb.Margin = new Thickness(0, -25, 0, 0);
+            }
+            else { 
+                rb.Margin = new Thickness(200, -25, 0, 0);
+            }
+            rb.GroupName = "Colorlevels";
+            this.ColorLevels.Children.Add(rb);
+            this.scheme.addColor(new System.Drawing.Color());
+            
+            
         }
     }
 }

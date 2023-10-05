@@ -1,0 +1,7 @@
+*.cache
+*.cache
+*.vsidx
+*.suo
+.vs/
+CustomCharacterGenerator/SpriteMaker/bin/
+CustomCharacterGenerator/SpriteMaker/obj/
